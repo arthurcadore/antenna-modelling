@@ -16,7 +16,7 @@ Downloading NEC Files:
 To download a NEC file, simply click on the file name you are interested in. On the file's page, click the "Download" button located at the top right. You can also clone the entire repository to your local machine using Git by running the following command in your terminal:
 
 ```
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/arthurcadore/antennaModelling
 ```
 ---
 
