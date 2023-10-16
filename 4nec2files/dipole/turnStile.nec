@@ -1,0 +1,33 @@
+CM =============================================================================
+CM Author: Arthur Cadore M. Barcella
+CM 
+CM 4NEC file to dipole TurnStile Antenna, with the following specifications: 
+CM 
+CM Frequency Operation: 200MHz
+CM 
+CM Dipole: Half Wave Lenght
+CM 
+CM Number of Arragements: 2 
+CM 
+CM =============================================================================
+CE
+SY LD2=0.375
+SY DH=0.005
+SY SEG=21
+SY SEGS=11
+SY DD=0.015
+SY DD2=DD+0.75
+SY DD3=DD2+DD
+GW	1	SEG	0	-LD2	0	0	LD2	0	DH
+GW	2	SEG	-LD2	0	DD	LD2	0	DD	DH
+GW	3	SEG	0	-LD2	DD2	0	LD2	DD2	DH
+GW	4	SEG	-LD2	0	DD3	LD2	0	DD3	DH
+GE	0
+GN	-1
+EK
+EX	0	1	SEGS	0	1	0	0
+EX	0	2	SEGS	0	1	0	0
+EX	0	3	SEGS	0	1	0	0
+EX	0	4	SEGS	0	1	0	0
+FR	0	0	0	0	200	0
+EN
