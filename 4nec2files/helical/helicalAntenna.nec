@@ -1,0 +1,22 @@
+CM =============================================================================
+CM Author: Arthur Cadore M. Barcella
+CM 
+CM 4NEC file to helix antenna, with the following specifications: 
+CM 
+CM Frequency Operation: 1500MHz
+CM 
+CM =============================================================================
+CE
+SY s=0.002	'Helix Step
+SY r=0.006366	'Helix Radius
+SY h=0.04	'Height
+SY wr=0.0005	'Wire Radius
+SY seg=200
+SY segs=1
+GH	1	seg	s	h	r	r	r	r	wr
+GE	0
+GN	-1
+EK
+EX	0	segs	1	0	1	0	0
+FR	0	0	0	0	1500	0
+EN
