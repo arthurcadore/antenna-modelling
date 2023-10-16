@@ -1,4 +1,17 @@
+CM =============================================================================
+CM Author: Arthur Cadore M. Barcella
 CM 
+CM 4NEC file to YagiUda antenna, with the following especifications: 
+CM 
+CM Frequency Operation: 300MHz
+CM 
+CM Number Of Directors: 4 
+CM 
+CM Number Of Reflectors: 1
+CM 
+CM Load Element Tipe: Simple
+CM 
+CM =============================================================================
 CE
 SY R=0.2952
 SY DP=0.3
