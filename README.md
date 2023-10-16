@@ -1,7 +1,7 @@
 # antennaModelling
 
-## Author: Arthur Cadore M. Barcella.
-### Telecom Eng. Student
+### Author: Arthur Cadore M. Barcella.
+#### Telecom Eng. Student
 
 This repository is dedicated to NEC files optimized for 4NEC2 software, a powerful tool for antenna simulation and analysis. 
 
