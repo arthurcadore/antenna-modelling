@@ -1,0 +1,33 @@
+CM =============================================================================
+CM Author: Arthur Cadore M. Barcella
+CM 
+CM 4NEC file to helix antenna, with the following specifications: 
+CM 
+CM Frequency Operation: 1500MHz
+CM 
+CM Reflector: Square Reflector with lenght of wavelenght. 
+CM 
+CM =============================================================================
+CE
+SY s=0.0452	'Helix Step
+SY r=0.0318	'Helix Radius
+SY h=0.407	'Height
+SY wr=0.005	'Wire Radius
+SY seg=200	'Number Of segments
+SY segs=4	'Source Segment
+SY cl1=r	'Conductor 1 Lenght
+SY cl2=0.035	'Couductor 2 Lenght
+SY rd=0.04	'Reflector Distance
+SY rl=0.1	'Reflector (Square) Lenght
+SY segc=6	'Number Of segments (conductor)
+GH	1	seg	s	h	r	r	r	r	wr
+GW	2	segc	0	0	0	cl1	0	0	wr
+GW	3	segc	0	0	-cl2	0	0	0	wr
+SP	0	1	rl	rl	-rd	rl	-rl	-rd
+SC	0	-1	-rl	-rl	-rd
+GE	0
+GN	-1
+EK
+EX	0	3	segs	0	1	0	0
+FR	0	0	0	0	1500	0
+EN
