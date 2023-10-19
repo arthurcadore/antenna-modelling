@@ -20,11 +20,11 @@ SY cl2=0.035	'Couductor 2 Lenght
 SY rd=0.04	'Reflector Distance
 SY rl=0.1	'Reflector (Square) Lenght
 SY segc=6	'Number Of segments (conductor)
-GH	1	seg	s	h	r	r	r	r	wr
-GW	2	segc	0	0	0	cl1	0	0	wr
-GW	3	segc	0	0	-cl2	0	0	0	wr
-SP	0	1	rl	rl	-rd	rl	-rl	-rd
-SC	0	-1	-rl	-rl	-rd
+GH	1	seg	s	h	r	r	r	r	wr	'Helix component
+GW	2	segc	0	0	0	cl1	0	0	wr	'Conductor 1 (Connection to Helix)
+GW	3	segc	0	0	-cl2	0	0	0	wr	'Conductor 2 (Source)
+SP	0	1	rl	rl	-rd	rl	-rl	-rd	'Reflector
+SC	0	-1	-rl	-rl	-rd	'Reflector
 GE	0
 GN	-1
 EK
