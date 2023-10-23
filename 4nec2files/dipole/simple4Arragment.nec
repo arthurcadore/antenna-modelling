@@ -27,6 +27,6 @@ EK
 EX	0	1	SEGS	0	1	0	0	'Source Of Firts Dipole
 EX	0	2	SEGS	0	6.12e-17	-1	0	'Source Of Second Dipole
 EX	0	3	SEGS	0	-1	-1.2e-16	0	'Source Of Third Dipole
-EX	0	2	SEGS	0	6.12e-17	1	0	'Source Of Fourth Dipole
+EX	0	4	SEGS	0	6.12e-17	1	0	'Source Of Fourth Dipole
 FR	0	0	0	0	300	0
 EN
