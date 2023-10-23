@@ -1,0 +1,26 @@
+CM =============================================================================
+CM Author: Arthur Cadore M. Barcella
+CM 
+CM 4NEC file to arragement of two dipole antennas (with lambda/2 spacing between them)
+CM 
+CM Frequency Operation: 300MHz
+CM 
+CM Dipole: Half Wave Lenght
+CM 
+CM ============================================================================= 
+CE
+SY DP=0.25	'Dipole Leght
+SY DL=0.5	'Distance between dipoles
+SY F=300	'Frequency
+SY RH=0.005	'Radius of wire
+SY SEG=21	'Dipole Segments
+SY SEGS=11	'Source Segment
+GW	1	SEG	-DP	0	0	DP	0	0	RH	'First dipole
+GW	2	SEG	-DP	0	DL	DP	0	DL	RH	'Second dipole
+GE	0
+GN	-1
+EK
+EX	0	1	SEGS	0	1	0	0	'Source Of Firts Dipole
+EX	0	2	SEGS	0	1	0	0	'Source Of Second Dipole
+FR	0	0	0	0	300	0
+EN
