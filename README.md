@@ -1,4 +1,4 @@
-# antennaModelling
+# Antenna Modelling in NEC softwares
 
 ### Author: Arthur Cadore M. Barcella.
 #### Telecom Eng. Student
