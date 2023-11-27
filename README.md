@@ -3,7 +3,7 @@
 
 This repository is dedicated to 4NEC2 files and HFSS antenna modelling files. 
 
-![APC 5A 90 Irradiation](https://github.com/arthurcadore/antennaModelling/hfss/pictures)
+![APC 5A 90 Irradiation](https://github.com/arthurcadore/antennaModelling/blob/main/HFSS/pictures/APC%205A%2090.png)
 ---
 
 How to Use the Repository:
