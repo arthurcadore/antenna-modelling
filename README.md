@@ -1,10 +1,9 @@
 # Antenna Modelling in NEC softwares
+### Telecom Eng. - Antenna Propagation
 
-### Author: Arthur Cadore M. Barcella.
-#### Telecom Eng. Student
+This repository is dedicated to 4NEC2 files and HFSS antenna modelling files. 
 
-This repository is dedicated to NEC files optimized for 4NEC2 software, a powerful tool for antenna simulation and analysis. 
-
+![APC 5A 90 Irradiation](https://github.com/arthurcadore/antennaModelling/hfss/pictures)
 ---
 
 How to Use the Repository:
