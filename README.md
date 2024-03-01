@@ -1,4 +1,4 @@
-# Antenna Modelling in NEC softwares
+# Antenna Modelling Repository for HFSS and NEC Files
 ### Telecom Eng. - Antenna Propagation
 
 This repository is dedicated to 4NEC2 files and HFSS antenna modelling files. 
